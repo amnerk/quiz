@@ -9,6 +9,17 @@ $(document).ready(function() {
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
         var totalScore;
-    });
+        
+        function medicalconditions(conditions)
+            if (conditions === Nearsighted){
+            return 2;
+            else if (conditions === Arthritis){
+            return 4;
+            else if (conditions === IBS){
+            return 6;
+            }
+    
+        
+    
 
 });
