@@ -29,11 +29,11 @@ $(document).ready(function() {
             }
     
         function capitalism(destroyed){
-            if (capitalism === "Yes! Communist all the way"){
+            if (destroyed === "Yes!"){
                 return 2;
-                }else if (capitalism === "Never that!"){
+                }else if (destroyed === "Never that!"){
                     return 4;
-                }else if (capitalism === "I'm not sure"){
+                }else if (destroyed === "I'm not sure"){
                     return 6;}
             }
 function totalScore () {
